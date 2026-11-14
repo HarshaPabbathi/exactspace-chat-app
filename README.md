@@ -1,16 +1,75 @@
-# React + Vite
+# Exactspace Chat Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive, interactive chat application built using React.js as part of the Exactspace Frontend Developer Assignment.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Random User Names:** Automatically assigns a random username to each message.
+- **Send Messages:** Send messages using the Send button or Enter key.
+- **Like Messages:** Like messages and view the like count.
+- **Emoji Picker:** Search and insert emojis into messages.
+- **@Mentions:** Mention other users with autocomplete suggestions.
+- **Keyboard Navigation:** Navigate mention suggestions using arrow keys and select using Enter.
+- **Auto Scroll:** Automatically scrolls to the latest message.
+- **Clear Messages:** Clear the entire chat conversation.
+- **Responsive Design:** Works across desktop and mobile screens.
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Vite
+- npm
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Clone the Repository
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+```
+
+### 2. Navigate to the Project Folder
+
+```bash
+cd exactspace-chat
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the Development Server
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in your terminal to access the application.
+
+### 5. Build for Production
+
+```bash
+npm run build
+```
+
+## Project Structure
+
+```text
+exactspace-chat/
+├── public/
+├── src/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+├── package-lock.json
+├── .gitignore
+└── README.md
+```
