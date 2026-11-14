@@ -1,6 +1,6 @@
 # Exactspace Chat Application
 
-A responsive, interactive chat application built using React.js as part of the Exactspace Frontend Developer Assignment.
+A responsive, interactive chat application built using React.js.
 
 ## Features
 
