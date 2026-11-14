@@ -9,9 +9,6 @@ A responsive, interactive chat application built using React.js as part of the E
 - **Like Messages:** Like messages and view the like count.
 - **Emoji Picker:** Search and insert emojis into messages.
 - **@Mentions:** Mention other users with autocomplete suggestions.
-- **Keyboard Navigation:** Navigate mention suggestions using arrow keys and select using Enter.
-- **Auto Scroll:** Automatically scrolls to the latest message.
-- **Clear Messages:** Clear the entire chat conversation.
 - **Responsive Design:** Works across desktop and mobile screens.
 
 ## Technologies Used
