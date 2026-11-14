@@ -51,11 +51,6 @@ npm run dev
 
 Open the local URL displayed in your terminal to access the application.
 
-### 5. Build for Production
-
-```bash
-npm run build
-```
 
 ## Project Structure
 
